@@ -3,9 +3,9 @@
 
 using namespace std;
 
+int A, B, C;
 int EnterNumbers()
 {
-    int A, B, C;
     std::cout << "Введите A: " << endl;
     std::cin >> A;
     std::cout << "Введите B: " << endl;
@@ -15,7 +15,9 @@ int EnterNumbers()
 }
 int OstatDel()
 {
-
+    int Ost;
+    Ost = (A + B) % C;
+    return Ost;
 }
 int CelDel()
 {
