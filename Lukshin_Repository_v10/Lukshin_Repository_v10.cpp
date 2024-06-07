@@ -21,7 +21,9 @@ int OstatDel()
 }
 int CelDel()
 {
-
+    int Cel;
+    Cel = (A + B) / C;
+    return Cel;
 }
 int main()
 {
