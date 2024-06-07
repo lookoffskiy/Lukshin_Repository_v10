@@ -5,7 +5,13 @@ using namespace std;
 
 int EnterNumbers()
 {
-
+    int A, B, C;
+    std::cout << "Введите A: " << endl;
+    std::cin >> A;
+    std::cout << "Введите B: " << endl;
+    std::cin >> B;
+    std::cout << "Введите C: " << endl;
+    std::cin >> C;
 }
 int OstatDel()
 {
